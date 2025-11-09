@@ -1,0 +1,36 @@
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;margin-bottom: 100px;
+}
+#contacts h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+  font-size: 46px;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: #929599;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 20px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.contact-item p {
+  font-size: 40px;
+}
+.contact-item a:hover {
+  transform: scale(1.2);
+}
+
+.contact-item a {
+  color: #078df2;
+  text-decoration: none;
+}
